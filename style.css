@@ -153,6 +153,12 @@ p{
       text-align: center;
       font-size: 1rem; 
     }
+
+    .about-content button{
+      margin: 2rem auto 4rem auto; 
+      display: block; 
+      padding: 1.5rem 4rem;
+    }
   }
   .services-container{
     display: grid;
@@ -290,55 +296,73 @@ p{
      padding-bottom: 1rem;
       padding-top: 2rem;
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   
     .mobile-content p {
       text-align: left;
-      font-size: 1.3rem;  
+      font-size: 1rem;  
+    }
+
+    .mobile-content button {
+      margin: 2rem auto 4rem auto; 
+      display: block; 
+      padding: 1.5rem 4rem;
     }
     
 
     .mobile-image {
-      width: 20px; 
+      width: 100%;
+      display: block;
+       
     }
   }
   
-  .numbers-container{
+  .numbers-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 50px;
     margin-top: 40px;
+    justify-content: center; 
   }
-  .numbers{
+  
+  .numbers {
     padding: 5rem 5rem;
   }
-  .number-item{
+  
+  .number-item {
     padding: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-    gap: 10px;
   }
-  .numbers h4{
+  
+  .numbers h4 {
     font-size: 7rem;
     font-weight: bold;
     color: rgb(86, 86, 116);
   }
-  .numbers span{
+  
+  .numbers span {
     color: rgb(224, 88, 110);
     font-weight: bold;
   }
+  
   @media (max-width: 768px) {
     .numbers-container {
-      flex-direction: column;
-      align-items: center;
+      grid-template-columns: 1fr; 
+      justify-items: center; 
     }
   
     .number-item {
       width: 80%; 
     }
+
+    .numbers h4 {
+      font-size: 5rem;
+    }
   }
+  
  
   .feedback-container {
     display: grid;
@@ -692,16 +716,6 @@ html, body {
 @media (max-width: 768px) {
 body, html {
   overflow-x: hidden;
-}
-
-.numbers-container {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  overflow-x: hidden;
-}
-
-.number-item {
-  width: 100%;
 }
 }
 
