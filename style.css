@@ -149,7 +149,7 @@ p{
     }
   
     .sub-text {
-      padding-right: 0;
+      padding-right: 0 1rem;
       text-align: center;
       font-size: 1rem; 
     }
@@ -159,6 +159,7 @@ p{
       display: block; 
       padding: 1.5rem 4rem;
     }
+ 
   }
   .services-container{
     display: grid;
@@ -300,8 +301,8 @@ p{
     }
   
     .mobile-content p {
-      text-align: left;
-      font-size: 1rem;  
+      text-align: center;
+      font-size: 1rem;   
     }
 
     .mobile-content button {
@@ -359,7 +360,7 @@ p{
     }
 
     .numbers h4 {
-      font-size: 5rem;
+      font-size: 4rem;
     }
   }
   
