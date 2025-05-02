@@ -132,7 +132,7 @@ img, svg {
       }
       .bg-location-icon {
         position: absolute;
-        right: 450px; 
+        right: 350px; 
         top: 3rem;
         width: 800px;
         height: 800px;
@@ -493,7 +493,7 @@ img, svg {
               }
         /*styling for feedback section*/
           .feedback{
-            margin-top: 10rem;
+            margin-top: 5rem;
           }
           .feedback .location-section{
             background-color: var(--color-bg);
@@ -503,8 +503,7 @@ img, svg {
             margin-bottom: 5rem;
           }
           .feedback-wrapper {
-            position: relative;
-            margin: auto;
+            margin:auto;
             padding: 2rem;
           }
           #feedback-track {
@@ -556,7 +555,6 @@ img, svg {
           /*styling for message section*/            
           .message-section{
             margin-top: 1rem;
-            margin-bottom: 6rem;
           }
           .message-content h3 {
             line-height: 1.3;
@@ -646,14 +644,14 @@ img, svg {
         }
         .newsletter-container{
           display: flex;
-          gap: 3rem;
+          gap: 5rem;
         }
         .newsletter-content{
           line-height: 1.5;
-          margin-left: 5rem;
+          margin-left: 3rem;
         }
         .newsletter-content h5{
-          font-size: 2rem;
+          font-size: 1.5rem;
         }
 
         .newsletter-input input{
@@ -667,8 +665,8 @@ img, svg {
           width: 400px;
         }
         .newsletter-input{
-          margin-left: 1rem;
-          margin-top: 1rem;
+          display: flex;
+          margin-bottom: 1rem;
         }
         #subscribeButton:disabled {
           opacity: 0.7;
@@ -738,7 +736,6 @@ img, svg {
         }
         .footer-navigation a{
           font-size: 0.6rem;
-          margin-top: 0.25rem;
         }
       }
    
