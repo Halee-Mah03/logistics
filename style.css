@@ -80,15 +80,22 @@ img{
 @media (max-width:768px){
   .hello-header h1{
     font-size: 3rem;
-    margin-left: 5%;
+    text-align: center;
   }
   .hello-header h2{
     font-size: 2.5rem;
-    margin-left: 5%;
+    text-align: center;
   }
   .hello-content h3{
-    font-size: 3rem;
-    margin-left: 5%;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  h3{
+    font-size: 2.5rem;
+  }
+  .paragraph{
+    text-align: left;
+    font-size: 1.1rem;
   }
 }
 /* svg icons styling*/
@@ -255,7 +262,7 @@ img{
                 margin-bottom: 2%;
               }
               .icon{
-                justify-content: flex-end;
+                margin-right: auto;
               }
               .paragraph{
                 text-align: center;
@@ -323,6 +330,7 @@ img{
           .services h3{
             text-align: center;
             margin-top: 30px;
+            
           }
           .services h4{
             text-align: center;
@@ -582,7 +590,7 @@ img{
             margin: 1rem;
           }
           .message-content .location-icons{
-          margin-left: 17rem;
+          margin-left: 10rem;
           width: 100px;
           height: 100px;
           }
@@ -590,12 +598,12 @@ img{
             width: 80px;
             height: 80px;
             color: var(--color-span);
-            margin-left: 6rem;
+            margin-left: 2rem;
         }
         /*media query for message section*/
         @media (max-width:768px){
           .message-content h3{
-            font-size: 2.5rem;
+            font-size: 2.2rem;
           }
           .message-content button{
             font-size: 1rem;
@@ -679,7 +687,7 @@ img{
       }
         /*styling for footer section*/      
         footer{
-          padding: 0.8rem;
+          padding: 0.6rem;
           background-color: var(--color-primary);
           color: var(--color-secondary);
         }
@@ -687,8 +695,7 @@ img{
           display: flex;
           justify-content: space-between;
         }
-        .footer-text{
-          margin-left: 3rem;
+        .footer-text{   
           margin-top: 1rem;
         }
         .footer-text p{
@@ -707,17 +714,15 @@ img{
       @media(max-width:768px){
         .footer-container{
           display: flex;
+          gap: 1rem;
+          padding-bottom: 1%;
         }
         .footer-text p{
           font-size: 0.85rem;
         }
         .footer-navigation a{
-          font-size: 0.9rem;
-          margin-top: 0.1rem;
-          line-height: 1.2;
+          font-size: 0.8rem;
+          margin-top: 0.25rem;
         }
       }
-
-
-
    
