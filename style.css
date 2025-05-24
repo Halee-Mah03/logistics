@@ -24,6 +24,8 @@ html,body {
   color: var(--color-text);
   width: 100%;
   overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
